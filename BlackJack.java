@@ -1,7 +1,3 @@
-/*Programmer: Dylan Driscoll
-Class: CS 145
-Assignment: Lab 4 Deck of Cards
-Date: 1/20/23*/
 
 /*This program will allow the user to play blackjack vs a 
 dealer.*/
@@ -192,20 +188,6 @@ public class BlackJack {
     "Dealers cards: ");
     dealerHand.ShowCards();
   }/*End of dealerchoice method.*/
-
-  /*This is an unused method. I plan to use it to implement a 
-  gambling system later when I have time. So I am leaving it here.
-  public static double bankAccount(Scanner input, double account) {
-    double bet;
-    System.out.printf(
-    "You have $%.2f in your account.\n", account);
-    System.out.println(
-    "How much would you like to bet on this hand?");
-    bet = input.nextDouble();
-    System.out.println(
-    "You have bet $" + bet);
-    return bet;
-  }*/
 
   /*This method will prompt the user to play again.*/
   public static String playAgain(Scanner input, String userCommand) {
