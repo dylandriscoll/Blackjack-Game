@@ -1,7 +1,3 @@
-/*Programmer: Dylan Driscoll
-Class: CS 145
-Assignment: Lab 4 Deck of Cards
-Date:1/20/23*/
 
 /*This is my class for hands. It creates an
 array list for the hand of the player and
