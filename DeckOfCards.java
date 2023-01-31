@@ -1,7 +1,3 @@
-//Programmer: Dylan Driscoll
-//Class: CS 145
-//Assignment: Lab 4 Deck of Cards
-//Date:1/20/23
 
 /*This is my deck of cards class. It creates a deck
 as a linked list, adds all the cards using for loops,
