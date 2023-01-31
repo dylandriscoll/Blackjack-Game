@@ -1,7 +1,3 @@
-//Programmer: Dylan Driscoll
-//Class: CS 145
-//Assignment: Lab 4 Deck of Cards
-//Date:1/20/23
 
 /*This is my card class. It uses enum and switch/case
 to create the define the card objects and determine
