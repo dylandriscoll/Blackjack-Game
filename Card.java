@@ -9,42 +9,34 @@ public class Card {
   private Face Face;
   private int Value;
 
-  /*Constructor method for my card class*/
   public Card(Suit suit, Face face) {
     this.Suit = suit;
     this.Face = face;
     this.Value = getInitialValue(face);
-  }/*End of constructor method.*/
+  }
 
-  /*Getter method for a card suit*/
   public Suit getSuit() {
     return Suit;
   }
 
-  /*Getter method for a card face*/
   public Face getFace() {
     return Face;
   }
 
-  /*Getter method for a card value*/
   public int getValue() {
     return Value;
   }
 
-  /*Setter method for a card value*/
   public void setValue(int val) {
     this.Value = val;
   }
   
-  /*Getter method for a string representation of a card*/
   public static String toString(Card card) {
     String cardString =
       card.getFace().toString() + " of " + card.getSuit().toString();
     return cardString;
   }
   
-  /*Getter method for the initial value of the card. Returns
-  different values depending on the face.*/
   public static int getInitialValue(Face face) {
     switch (face) {
       case KING:
